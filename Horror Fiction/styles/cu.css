@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+@font-face {
+    font-family: 'Horror';
+    src: url(/fonts/HelpMe.ttf);
+}
+
+@font-face {
+    font-family: 'Horror2';
+    src: url(/fonts/DEADLY\ KILLERS.ttf);
+}
+
+@font-face {
+    font-family: 'Horror3';
+    src: url(/fonts/Something\ Strange.ttf);
+}
+
+@font-face {
+    font-family: 'Horror4';
+    src: url(/fonts/DANGER\ ZONE.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+header {
+    margin: 0;
+}
+
+#background {
+    color: red;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, 
+    rgba(118,3,3,1) 50%, rgba(255,0,0,1) 100%);
+}
+
+
+h2 {
+    text-align: center;
+    color: red;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, 
+    rgba(118,3,3,1) 50%, rgba(255,0,0,1) 100%);
+}
+
+.close {
+    position: absolute;
+    top: 10;
+    right: 60;
+    bottom: 90;
+    left: 12;
+    padding: 12;
+
+}
+#cross {
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: red;
+    border-radius: 12px 12px;
+    border-color: red;
+    border-width: 12mm;
+}
+
+.bg-img {
+    background-color: url("/pictures/fredvsjason.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+h5 {
+    text-align: center;
+    color: red;
+    background-color: rgb(255, 0, 0);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    position: absolute;
+    color: white;
+    margin: 20px;
+    max-width: 550px;
+    border-radius: 15px;
+    background-color: darkred;
+    padding: 20px ;
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-bottom: 40px;
+
+}
+
+#contacttext {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+h1 {
+    margin: 0;
+    color: azure;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, 
+    rgba(118,3,3,1) 50%, rgba(255,0,0,1) 100%);
+    padding:10px;
+    font-family: 'Horror1';
+    font-weight: 100;
+    font-size: 15;
+    text-align: center;
+}
+p #contacttext {
+    color: white;
+    background-color: red;
+    font-family: 'fantasy';
+    padding: 12;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h4 {
+    color: whitesmoke;
+    font-weight: 100;
+    font-family: "Cinzel";
+    text-align: center;
+    background: rgb(20, 16, 16);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, 
+    rgba(118,3,3,1) 50%, rgba(255,0,0,1) 100%);
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.topnav a.active {
+    background-color: whitesmoke;
+    color: white;
+}
+
+.topnav {
+    background-color: darkred;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.topnav a {
+    color: red;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    display: inline-block;
+}
+
+.topnav a:hover{
+    background-color: #45150c;
+    color: black;
+}
+
+#FredVSJason {
+    position: relative;
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+  }
+
+  .fa {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    width: 50px;
+}
+.fa-twitter {
+    color: white;
+    margin: 0;
+    font-size: large;
+    padding: 0;
+    text-decoration: none;
+}
+.fa-instagram {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+.fa-youtube {
+    color: white;
+    margin: 0;
+    font-size: large;
+    padding: 0;
+    text-decoration: none;
+}
+
+.fa-snapchat {
+    color: white;
+    margin: 0;
+    font-size: large;
+    padding: 0px;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.3;
+}

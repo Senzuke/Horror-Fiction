@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+@font-face {
+    font-family: 'Horror';
+    src: url(/fonts/HelpMe.ttf);
+}
+
+@font-face {
+    font-family: 'Horror2';
+    src: url(/fonts/DEADLY\ KILLERS.ttf);
+}
+
+@font-face {
+    font-family: 'Horror3';
+    src: url(/fonts/Something\ Strange.ttf);
+}
+
+@font-face {
+    font-family: 'Horror4';
+    src: url(/fonts/DANGER\ ZONE.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+}
+.topnav a.active {
+    background-color: whitesmoke;
+    color: white;
+    margin: 0;
+}
+
+.topnav {
+    background-color: darkred;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.topnav a {
+    
+    color: red;
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    display: inline-block;
+    
+
+}
+
+.topnav a:hover {
+    background-color:#45150c;
+    color: black;
+}
+
+h4 {
+    color: whitesmoke;
+    font-weight: 100;
+    font-family: "Cinzel";
+    text-align: center;
+    background: rgb(20, 16, 16);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, 
+    rgba(118,3,3,1) 50%, rgba(255,0,0,1) 100%);
+    padding: 10px;
+}
+
+.footer {
+  text-align: center;
+}
+
+h1 {
+     
+    margin: 0;
+    color: azure;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, 
+    rgba(118,3,3,1) 50%, rgba(255,0,0,1) 100%);
+    padding:10px;
+    font-family: 'Horror1';
+    font-weight: 100;
+    font-size: 15;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: "Cinzel";
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid grey;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: -.05%;
+    color: white;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.fa {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    width: 50px;
+}
+.fa-twitter {
+    color: white;
+    margin: 0;
+    font-size: large;
+    padding: 0;
+    text-decoration: none;
+}
+.fa-instagram {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+.fa-youtube {
+    color: white;
+    margin: 0;
+    font-size: large;
+    padding: 0;
+    text-decoration: none;
+}
+
+.fa-snapchat {
+    color: white;
+    margin: 0;
+    font-size: large;
+    padding: 0px;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.3;
+}
